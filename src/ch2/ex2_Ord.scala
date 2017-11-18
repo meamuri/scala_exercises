@@ -1,4 +1,4 @@
-object App {
+object ex2_Ord {
   def main(args: Array[String]): Unit = {
     val arr = Array(1, 2, 5, 11, 8)
     val res = isSorted[Int](arr, (a, b) => { a <= b })
@@ -12,4 +12,5 @@ object App {
     }
     loop(0, curr = true)
   }
+  
 }

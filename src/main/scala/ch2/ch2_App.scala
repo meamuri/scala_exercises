@@ -3,6 +3,7 @@ package ch2
 
 object ch2_App {
   def run(n: Int) {
+    println("**********\nrun example: " + n)
     n match {
       case 1 =>
         println(ex1_Fib.fib(6))
@@ -32,6 +33,7 @@ object ch2_App {
 
       case _ => println("ooops")
     } // .. match
+    println("end example\n**********")
   } // .. def run
   
 } // .. obj

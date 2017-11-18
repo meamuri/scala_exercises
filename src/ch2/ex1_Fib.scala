@@ -1,3 +1,5 @@
+package ch2
+
 object ex_Fib {  
   def fib(n: Int): Int = {
     @annotation.tailrec

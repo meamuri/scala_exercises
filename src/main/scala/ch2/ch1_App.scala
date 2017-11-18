@@ -2,14 +2,14 @@ package ch2
 
 
 object ch1_App {  
-  def run(n: Int): Int = {
+  def run(n: Int) {
     n match {
-        1 => println(ex1_Fib.fib(6))
-        2 => 
+      case 1 => println(ex1_Fib.fib(6))
+      case 2 =>
             val arr = Array(1, 2, 5, 11, 8)
             val res = ex2_Ord.isSorted[Int](arr, (a, b) => { a <= b })
             print(res)
-        _ => println("ooops")        
+      case _ => println("ooops")
     } // .. match
   } // .. def run
   

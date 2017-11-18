@@ -1,6 +1,6 @@
 package ch2
 
-object ex_Fib {  
+object ex1_Fib {
   def fib(n: Int): Int = {
     @annotation.tailrec
     def rec(n: Int, prev: Int, curr: Int): Int = {

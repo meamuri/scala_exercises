@@ -1,7 +1,7 @@
 package ch2
 
 
-object ch1_App {  
+object ch2_App {
   def run(n: Int) {
     n match {
       case 1 => println(ex1_Fib.fib(6))
